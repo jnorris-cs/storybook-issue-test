@@ -13,11 +13,10 @@
     "storybook": "^6.4.9"
   },
   "dependencies": {
-    "http-server": "^14.0.0"
   },
   "scripts": {
     "storybook": "start-storybook -p 6005",
     "build-storybook": "build-storybook",
-    "start-others": "cd storybooks && http-server -p 6002 --cors && cd ../"
+    "start-others": "cd storybooks && yarn install && yarn dev"
   }
 }
