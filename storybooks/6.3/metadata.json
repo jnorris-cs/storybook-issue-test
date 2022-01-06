@@ -1,0 +1,9 @@
+{
+  "versions": {
+    "6.4.9": "http://localhost:6002/6.4.9",
+    "6.3": "http://localhost:6002/6.3",
+    "6.2": "http://localhost:6002/6.2",
+    "6.1": "http://localhost:6002/6.2",
+    "6.0": "http://localhost:6002/6.0"
+  }
+}

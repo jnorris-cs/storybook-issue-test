@@ -1,0 +1,20 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@storybook/addon-actions": "^6.2",
+    "@storybook/addon-essentials": "^6.2",
+    "@storybook/addon-links": "^6.2",
+    "@storybook/html": "^6.2",
+    "babel-loader": "^8.2.3",
+    "storybook": "^6.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o ../storybooks/6.2 && cp ./metadata.json ../storybooks/6.2"
+  }
+}
