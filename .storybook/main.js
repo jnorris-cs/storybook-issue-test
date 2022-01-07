@@ -11,7 +11,7 @@ module.exports = {
   refs: {
     'design-system': {
       title: "Version Tests",
-      url: "http://localhost:6002/6.4.9",
+      url: "http://localhost:6002/3",
     }
    }
 }
