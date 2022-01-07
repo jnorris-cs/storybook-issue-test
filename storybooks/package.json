@@ -1,0 +1,12 @@
+{
+  "name": "storybook-test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 6002",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
+  }
+}

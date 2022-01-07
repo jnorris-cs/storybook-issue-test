@@ -1,0 +1,7 @@
+{
+  "versions": {
+    "test 1": "http://localhost:6002/1",
+    "test 2": "http://localhost:6002/2",
+    "test 3": "http://localhost:6002/3"
+  }
+}

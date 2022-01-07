@@ -14,8 +14,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "storybook": "start-storybook -p 6003",
-    "build-storybook": "build-storybook",
-    "start-others": "cd storybooks && yarn install && yarn dev"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "yarn install && build-storybook -o ../storybooks/3 && cp ./metadata.json ../storybooks/3"
   }
 }
